@@ -1,0 +1,169 @@
+
+body{
+  background:  #061931;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+header img{
+ border-radius: 50%;
+ height: 10%;
+ width: 10%;
+ margin-left: 3rem;
+margin-top: 2rem;
+}
+
+.main {
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 50%;
+  height: 20rem;
+  background: #061931;
+
+  color:rgb(241, 100, 144) ;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+
+}
+.main::placeholder{
+  color:rgb(241, 100, 144) ;
+}
+.right{
+ 
+  width: 30%;
+  height: 45rem;
+  background: #fff;
+  margin-left: 55rem;
+  margin-top: -6rem;
+  border-radius:1rem;
+}
+.right img{
+  margin-left: 15px;
+  margin-top: 10%;
+  width: 90%;
+  height: auto;
+}
+#texto{
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  font-size: 2rem ;
+}
+#texto2::placeholder{
+  color:rgb(241, 100, 144) ;
+}
+#texto2{
+  
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  color:rgb(241, 100, 144) ;
+  width: 87%;
+  height: 40%;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  background: none;
+}
+.paragrafo {
+  position: absolute;
+  margin-top: -10rem;
+  margin-left: 20.5rem;
+  color: #fff;
+  font-size: 12px;
+}
+.left-button{
+  position: absolute;
+  display: flex;
+  margin-left: -34.5rem;
+  margin-top: 13rem;
+}
+#btn-criptografar:hover{
+  background: #daedf3;
+}
+#btn-criptografar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  width: 228px;
+  height: 47px;
+  margin-right: 2rem;
+  cursor: pointer;
+  
+  background: rgb(241, 100, 144);
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: bold ;
+  outline: none;
+  border: none;
+}
+#btn-descriptografar:hover{
+  background: rgb(241, 100, 144);
+}
+#btn-descriptografar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  width: 228px;
+  height: 47px;
+  cursor: pointer;
+  
+  background: #daedf3;
+  border-radius: 0.5rem;
+  color: black;
+  font-weight: bold ;
+  outline: none;
+  border: none;
+}
+#copy{
+  position: relative;
+  margin-left: 33%;
+  margin-top: 20%;
+  top: 16rem;
+  padding: 24px;
+  width: 40%;
+  height: 5%;
+  cursor: pointer;
+  align-items: center;
+
+  font-weight: bold;
+
+  background: #fff;
+  border-radius: 0.5rem;
+  border-color: rgb(241, 100, 144);
+  display: none;
+  outline: none;
+}
+/*.left-button .paragrafo{
+  margin-top: 0.5rem;
+  margin-left: 20.5rem;
+  color: #fff;
+  font-size: 15px;
+}*/
+.fas {
+  font-weight:500 ;
+  font-size: 1rem;
+  min-width: 1rem;
+  
+}
+.buttons button{
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 5rem;
+  margin-left: 3rem;
+  position: relative;
+  top: -14rem ;
+
+}
