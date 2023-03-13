@@ -153,7 +153,7 @@ h1, h2, h3{
   background-color: var(--darck-color);
 }
 #work{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://e7a076e64f.cbaul-cdnwnd.com/058709893f44196391ce01ec91410928/200000156-c4f75c4f78/IMG_0114.jpg?ph=e7a076e64f') center/cover no-repeat fixed;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url('https://s3.wasabisys.com/instax/74/instax/2022/05/tipos-de-iluminacao-para-fotografia-1653786731-2048x1365.jpeg') center/cover no-repeat fixed;
   color: var(--light-color);
 }
 #work .title h2, #work h3{
