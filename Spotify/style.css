@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: inherit;
+  box-sizing: border-box;
+}
+:root{
+  --default-green: #1DB954;
+  --light-green: #1ed760;
+  --black: #222326;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/*-- Utility Classes --*/
+.btn-primary{
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 60px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  transform: all 300ms ease;
+  background: var(--default-green);
+  text-transform: uppercase;
+}
+.btn-primary:hover{
+  cursor: pointer;
+  background: var(--light-green);
+}
+.logo{
+  height: 40px;
+  width: auto;
+}
+
+/*-- Navbar --*/
+
+#navbar{
+  top: 0;
+  width: 100%;
+  display: flex;
+  color: white;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+}
+#navbar .navbar-container{
+  width: 60%;
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navbar .navbar-container .logo{
+  height: 40px;
+  width: auto;
+}
+
+#navbar .navbar-container ul{
+  display: flex;
+  list-style: none;
+  font-weight: bolder;
+}
+#navbar .navbar-container ul li{
+  padding: 0 20px;
+  transition: all 300ms ease;
+}
+#navbar .navbar-container ul li:hover{
+  color: var(--default-green);
+  cursor: pointer;
+}
+#navbar .navbar-container ul li:nth-child(3){
+  border-right: 1px solid white;
+}
+
+/*-- Showcase --*/
+
+#showcase{
+  height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode:color ;
+  background-color: rgba(0, 0, 0, 0.6);
+  background: url("/img/Showcase.jpg") center center/cover ;
+}
+#showcase .showcase-container{
+  display: flex;
+  
+  align-items: center;
+  flex-direction: column;
+}
+#showcase .showcase-container h2{
+  font-size: 5rem;
+}
+#showcase .showcase-container p{
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+/*-- Footer --*/
+
+#footer{
+  color: white;
+  padding: 80px 0;
+  background: black;
+}
+#footer .footer-content{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .footer-content .footer-menu{
+  margin: 0 40px;
+  list-style: none;
+}
+#footer .footer-content .footer-menu .footer-menu-item{
+  margin: 25px 0;
+  transition: all 300ms ease;
+}
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+  color: var(--default-green);
+  cursor: pointer;
+}
+#footer .footer-content .footer-menu p{
+  color: #919496;
+  font-weight: bold;
+  font-size: 0.8rem ;
+  text-transform: uppercase;
+}
+/*-- Footer Socials --*/
+.socials{
+  display: flex;
+}
+.socials a{
+  width: 44px;
+  height: 44px;
+  margin-right: 15px;
+  border-radius: 50%;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--black);
+  
+}
+.socials a i{
+  margin: 0 20px;
+  font-size: 1.7rem;
+  transition: all 300ms ease;
+}
+.socials a i:hover{
+  cursor: pointer;
+  color: var(--default-green);
+}
+/*-- Footer Info --*/
+
+.footer-info{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  color: #919496;
+  padding-top: 50px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.footer-info .footer-info-items{
+  display: flex;
+  list-style: none;
+}
+.footer-info .footer-info-items .footer-info-item{
+  margin: 0 10px;
+  transition: all 300ms ease;
+}
+.footer-info .footer-info-items .footer-info-item:hover{
+  color: var(--default-green);
+  cursor: pointer;
+}
+.footer-info .rights .country{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: flex-end;
+}
+.footer-info .rights .country p{
+  transition: all 300ms ease;
+}
+.footer-info .rights .country p:hover{
+  color: var(--default-green);
+  cursor: pointer;
+}
+.footer-info .rights .country .brazil-flag{
+  width: auto;
+  height: 20px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+@media  (max-width: 480px){
+  #showcase{
+    width: 100%;
+  }
+  .logo{
+    width: 35%;
+  }
+  #footer .footer-content{
+    margin: 0;
+    display: block;
+  }
+  #footer .footer-content .footer-menu{
+    margin: 40px 2px 50px;
+  }
+  .socials{
+    margin: 150px 0 0 ;
+  }
+  .footer-info .footer-info-items{
+    display: block;
+  }
+  .footer-info{
+    margin: 0;
+  }
+  .rights{
+    margin: 0;
+  }
+}
