@@ -85,7 +85,7 @@ body{
   justify-content: center;
   background-blend-mode:color ;
   background-color: rgba(0, 0, 0, 0.6);
-  background: url("/img/Showcase.jpg") center center/cover ;
+  background: url("/Spotify/img/Showcase.jpg") center center/cover ;
 }
 #showcase .showcase-container{
   display: flex;
